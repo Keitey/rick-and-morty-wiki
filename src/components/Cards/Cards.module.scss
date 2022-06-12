@@ -1,0 +1,17 @@
+$radius: 10px;
+
+.cards{
+    border: 2px solid #0b5ed7;
+    border-radius: $radius;
+    // height: 417px;
+}
+
+.img{
+    border-radius: $radius $radius 0 0;
+}
+
+.badge{
+    top: 10px;
+    right: 20px;
+    font-size: 17px;
+}
