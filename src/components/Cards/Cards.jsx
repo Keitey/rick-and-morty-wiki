@@ -16,7 +16,7 @@ const Cards = ({ results, page }) => {
         >
           <div className={`${styles.cards} d-flex flex-column justify-content-center`}>
             <img src={image} alt={name} className={`${styles.img} img-fluid`} />
-            <div style={{ padding: "10px" }} className="content">
+            <div style={{ padding: "10px", height: "400px"}} className="content">
               <div className="fs-4 fw-bold mb-4">{name}</div>
               <div className="">
                 <div className="fs-6">Última localização</div>
