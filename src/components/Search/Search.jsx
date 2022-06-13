@@ -13,14 +13,6 @@ const Search = ({ setSearch, setPageNumber }) => {
         placeholder="Buscar personagem"
         className={styles.input}
       />
-      <button
-        className={`${styles.btn} btn btn-primary fs-5`}
-        onClick={(e) => {
-          e.preventDefault();
-        }}
-      >
-        Buscar
-      </button>
     </form>
   );
 };
